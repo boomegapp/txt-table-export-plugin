@@ -1,10 +1,12 @@
 package com.dansoftware.boomega.export.txtable
 
+import com.dansoftware.boomega.export.api.RecordExportAPI
 import com.dansoftware.boomega.export.api.RecordExporter
 import com.dansoftware.boomega.plugin.RecordExporterPlugin
 import com.dansoftware.boomega.util.Person
 
 @Suppress("unused")
+@RecordExportAPI
 class TXTableExporterPlugin : RecordExporterPlugin {
     override val author: Person = Person(lastName = "Gyoerffy", firstName = "Daniel")
     override val description: String  = "Allows to export records into txt-tables"

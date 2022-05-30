@@ -18,6 +18,7 @@
 
 package com.dansoftware.boomega.export.txtable.gui
 
+import com.dansoftware.boomega.export.api.RecordExportAPI
 import com.dansoftware.boomega.export.gui.BaseConfigurationView
 import com.dansoftware.boomega.export.txtable.TXTableConfiguration
 import com.dansoftware.boomega.gui.util.*
@@ -27,6 +28,7 @@ import javafx.scene.Node
 import javafx.scene.control.*
 import javafx.scene.layout.*
 
+@RecordExportAPI
 class TXTableConfigurationView(
     private val onFinished: (TXTableConfiguration) -> Unit
 ) : BorderPane() {

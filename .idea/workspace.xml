@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="117c8fd6-68e9-4472-ab55-26db042021ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boomega-database-0.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boomega-export-0.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boomega-gui-api-0.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boomega-gui-utils-0.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boomega-i18n-0.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boomega-plugin-0.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/boomega-utils-0.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/TXTableConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/TXTableConfiguration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/TXTableExporter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/TXTableExporter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/TXTableExporterPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/TXTableExporterPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/gui/TXTableConfigurationDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/gui/TXTableConfigurationDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/gui/TXTableConfigurationOverlay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/gui/TXTableConfigurationOverlay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/gui/TXTableConfigurationView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/dansoftware/boomega/export/txtable/gui/TXTableConfigurationView.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +81,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Györffy.Dániel/IdeaProjects/txt-table-export-plugin/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Györffy.Dániel/IdeaProjects/txt-table-export-plugin/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Györffy.Dániel\IdeaProjects\txt-table-export-plugin\lib" />

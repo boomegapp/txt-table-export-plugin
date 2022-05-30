@@ -19,11 +19,13 @@
 package com.dansoftware.boomega.export.txtable
 
 import com.dansoftware.boomega.database.api.data.RecordProperty
+import com.dansoftware.boomega.export.api.RecordExportAPI
 import com.dansoftware.boomega.export.api.RecordExportConfiguration
 
 /**
  * Configuration for the [TXTableExporter]
  */
+@RecordExportAPI
 class TXTableConfiguration : RecordExportConfiguration() {
 
     override val availableFields: List<RecordProperty<*>>

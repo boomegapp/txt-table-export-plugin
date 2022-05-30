@@ -19,9 +19,11 @@
 package com.dansoftware.boomega.export.txtable.gui
 
 import com.dansoftware.boomega.export.api.ConfigurationDialog
+import com.dansoftware.boomega.export.api.RecordExportAPI
 import com.dansoftware.boomega.export.txtable.TXTableConfiguration
 import com.dansoftware.boomega.gui.api.Context
 
+@RecordExportAPI
 class TXTableConfigurationDialog : ConfigurationDialog<TXTableConfiguration> {
     override fun show(context: Context, onFinished: (TXTableConfiguration) -> Unit) {
         var overlay: TXTableConfigurationOverlay? = null

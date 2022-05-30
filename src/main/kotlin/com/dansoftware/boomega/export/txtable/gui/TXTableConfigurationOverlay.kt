@@ -18,10 +18,12 @@
 
 package com.dansoftware.boomega.export.txtable.gui
 
+import com.dansoftware.boomega.export.api.RecordExportAPI
 import com.dansoftware.boomega.export.txtable.TXTableConfiguration
 import com.dansoftware.boomega.gui.control.TitledOverlayBox
 import com.dansoftware.boomega.gui.util.icon
 
+@RecordExportAPI
 class TXTableConfigurationOverlay(onFinished: (TXTableConfiguration) -> Unit) : TitledOverlayBox(
     "TXT table export config", icon("txt-icon"), TXTableConfigurationView(onFinished) // TODO: i18n
 )

@@ -22,6 +22,7 @@ import com.dansoftware.boomega.database.api.data.Record
 import com.dansoftware.boomega.export.api.BaseExporter
 import com.dansoftware.boomega.export.api.ConfigurationDialog
 import com.dansoftware.boomega.export.api.ExportProcessObserver
+import com.dansoftware.boomega.export.api.RecordExportAPI
 import com.dansoftware.boomega.export.txtable.gui.TXTableConfigurationDialog
 import com.dansoftware.boomega.gui.util.icon
 import com.inamik.text.tables.GridTable
@@ -35,6 +36,7 @@ import java.io.PrintStream
 /**
  * Allows exporting [Record]s into txt tables.
  */
+@RecordExportAPI
 class TXTableExporter : BaseExporter<TXTableConfiguration>() {
 
     override val name: String
